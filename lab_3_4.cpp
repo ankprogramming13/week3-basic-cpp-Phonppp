@@ -9,28 +9,24 @@ int main() {
   	b = a + 5;
   	c = a - 5;
   	d = -c;
-
-    // แสดงข้อมูล
+   // แสดงข้อมูล
   	cout << "a, b, c and d is " << endl;
   	cout << a << endl;
   	cout << b << endl;
   	cout << c << endl;
   	cout << d << endl;
-
-    // แก้ไขค่า
+   // แก้ไขค่า
   	b = a * 5;
   	c = a / 5;
   	d = a % 5;
-
-    // แสดงข้อมูลหลังแก้ไข
+   // แสดงข้อมูลหลังแก้ไข
   	cout << "a, b, c and d is " << endl;
   	cout << a << endl;
   	cout << b << endl;
   	cout << c << endl;
   	cout << d << endl;
-
-    // เขียนโปรแกรมเพื่อหาค่า a = b * a + 20 * (20 - 15) / 10
-
+ // เขียนโปรแกรมเพื่อหาค่า a = b * a + 20 * (20 - 15) / 10
+    a = b * a + 20 * (20 - 15) / 10;
 
     // เขียนแสดงผลค่า a
 
